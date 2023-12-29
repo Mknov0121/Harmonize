@@ -29,6 +29,6 @@ def clean_lyrics(lyrics):
 
 # Apply clean
 spotify_data['cleaned_text'] = spotify_data['text'].apply(clean_lyrics)
-spotify_data.to_csv('C:\\Users\\34640\\Desktop\\Saturdays.ai\\spotify_dset\\spotify_data_processed.csv', index=False)
+spotify_data.to_csv('Path', index=False)
 
 #print(spotify_data['cleaned_text'].head())
