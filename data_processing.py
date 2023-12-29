@@ -15,7 +15,7 @@ def load_data (path):
     except Exception as e:
         print(f"An error occurred loading the file: {e}")
         return None
-path = 'C:\\Users\\34640\\Desktop\\Saturdays.ai\\spotify_dset\\spotify_millsongdata.csv\\spotify_millsongdata.csv'
+path = 'path'
 spotify_data = load_data(path)
 
 spotify_data.columns = ['artist', 'song', 'link', 'text']
