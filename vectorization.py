@@ -2,7 +2,7 @@ from gensim.models import Word2Vec
 import pandas as pd
 
 
-spotify_data= pd.read_csv('C:\\Users\\34640\\Desktop\\Saturdays.ai\\spotify_dset\\spotify_data_processed.csv')
+spotify_data= pd.read_csv('Path')
 
 
 
