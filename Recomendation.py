@@ -6,7 +6,7 @@ import json
 import gradio as gr
 from gradio.components import Textbox
 from ast import literal_eval
-spotify_data_processed = pd.read_csv('C:\\Users\\34640\\Desktop\\Saturdays.ai\\spotify_dset\\dataset_modificado.csv')
+spotify_data_processed = pd.read_csv('Path')
 
 def convert_string_to_array(str_vector):
     # Si str_vector ya es un array de NumPy, devolverlo directamente
