@@ -3,7 +3,7 @@ from Recomendation import recommend_song_interface
 from youtube import add_youtube_links
 
 # Asegúrate de configurar tu clave de API de YouTube aquí
-API_KEY = "AIzaSyAp-D7Mfafd6gJQo2gtAXRXwDlG8_uNXnU"
+API_KEY = "Api_Key"
 
 def get_recommendation(titulo, artista):
     recommendations = recommend_song_interface(titulo, artista)
