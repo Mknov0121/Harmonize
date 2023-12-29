@@ -15,6 +15,6 @@ def song_vector(tokens, model):
 
 # Aplicar esta función a cada canción en tu dataset
 spotify_data['song_vector'] = spotify_data['cleaned_text'].apply(lambda x: song_vector(x, model))
-spotify_data.to_csv('C:\\Users\\34640\\Desktop\\Saturdays.ai\\spotify_dset\\dataset_modificado.csv', index=False)
+spotify_data.to_csv('Path', index=False)
 
 
