@@ -37,5 +37,5 @@ async def help_command(ctx):
     await ctx.send(help_text)
 
 # Ejecutar el bot
-bot.run('MTE4MDk0NzU5OTAyNTUyMDc2Mg.GKn81u.tMUwZpNIMAOwImzpZrxT-zB-v9vGX_4hxXDk20')
+bot.run('API_K_DISCORD')
 
