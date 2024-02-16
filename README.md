@@ -1,38 +1,40 @@
-Proyecto de Recomendación de Canciones: Integración con Discord y YouTube
-Bienvenidos al proyecto donde la música se encuentra con la tecnología de vanguardia. Este proyecto une la ciencia de datos, el procesamiento de lenguaje natural y el desarrollo de aplicaciones para ofrecer una experiencia única en la recomendación de canciones, integrada con plataformas populares como Discord y YouTube.
+Song Recommendation Project: Integration with Discord and YouTube.
+Welcome to the project where music meets cutting-edge technology. This project brings together data science, natural language processing and application development to offer a unique song recommendation experience integrated with popular platforms like Discord and YouTube.
 
-Descripción
-Este proyecto utiliza un conjunto de datos de Spotify para recomendar canciones basándose en las preferencias del usuario. A través de la vectorización y representación vectorial, las letras de las canciones se transforman en datos analizables, permitiendo al sistema sugerir canciones similares. Además, se integra con la API de YouTube para proporcionar enlaces directos a las canciones recomendadas y un bot de Discord para interactuar con los usuarios.
+Description
+This project uses a Spotify dataset to recommend songs based on user preferences. Through vectorization and vector representation, song lyrics are transformed into analyzable data, allowing the system to suggest similar songs. In addition, it integrates with the YouTube API to provide direct links to recommended songs and a Discord bot to interact with users.
 
-Características
-Recomendación de Canciones: Basado en técnicas de NLP y Word2Vec para analizar y sugerir canciones.
-Integración con YouTube: Enlaces directos a videos de YouTube para cada canción recomendada.
-Bot de Discord: Interfaz interactiva para recibir recomendaciones de canciones dentro de Discord.
-Data-Driven: Utiliza un extenso conjunto de datos de Spotify para análisis y recomendaciones.
-Estructura del Proyecto
-El proyecto se divide en varios scripts y módulos, cada uno con un propósito específico:
+Features
+Song Recommendation: Based on NLP and Word2Vec techniques to analyze and suggest songs.
+YouTube integration: Direct links to YouTube videos for each recommended song.
+Discord Bot: Interactive interface to receive song recommendations within Discord.
+Data-Driven: Uses an extensive Spotify dataset for analysis and recommendations.
+Project Structure
+The project is divided into several scripts and modules, each with a specific purpose:
 
-Data Processing: Limpieza y preparación de datos de Spotify.
-Vectorization: Vectorización de letras de canciones para su análisis.
-Recomendation: Sistema de recomendación de canciones basado en similitudes.
-YouTube Integration: Módulo para integrar recomendaciones con enlaces de YouTube.
-Discord Bot: Un bot interactivo para Discord que usa el sistema de recomendación.
-Requisitos
+Data Processing: Spotify data cleaning and preparation.
+Vectorization: Vectorization of song lyrics for analysis.
+Recommendation: Song recommendation system based on similarities.
+YouTube Integration: Module to integrate recommendations with YouTube links.
+Discord Bot: An interactive bot for Discord that uses the recommendation system.
+Requirements
 Python 3.x
-Bibliotecas: discord.py, numpy, pandas, gensim, requests, gradio
-API Key de YouTube
-Token de Bot de Discord
-Instalación y Configuración
-Clonar el repositorio: git clone [URL del repositorio]
-Instalar las dependencias: pip install -r requirements.txt
-Configurar las claves de API de YouTube y el token de Discord en los archivos correspondientes.
-Ejecutar los scripts según sea necesario.
+Libraries: discord.py, numpy, pandas, gensim, requests, gradio
+YouTube API Key
+Discord Bot Token
+Installation and Configuration
+Clone the repository: git clone [repository URL].
+Install dependencies: pip install -r requirements.txt
+Configure the YouTube API keys and Discord token in the corresponding files.
+Execute the scripts as needed.
 
-Uso
-Para usar el bot de Discord:
+Using
+To use the Discord bot:
 
-Asegúrate de que el bot esté activo y conectado a tu servidor de Discord.
-Usa el comando /recomendar <título> <artista> para obtener recomendaciones.
-Explora las recomendaciones y enlaces de YouTube proporcionados por el bot.
-Contribuciones
-Las contribuciones son siempre bienvenidas. Por favor, lee el archivo CONTRIBUTING para más detalles.
+Make sure the bot is active and connected to your Discord server.
+Use the /recommend <title> <artist> command to get recommendations.
+Explore the YouTube recommendations and links provided by the bot.
+Contributions
+Contributions are always welcome. Please read the CONTRIBUTING file for more details.
+
+Translated with DeepL.com (free version)
