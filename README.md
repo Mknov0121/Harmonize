@@ -37,4 +37,3 @@ Explore the YouTube recommendations and links provided by the bot.
 Contributions
 Contributions are always welcome. Please read the CONTRIBUTING file for more details.
 
-Translated with DeepL.com (free version)
